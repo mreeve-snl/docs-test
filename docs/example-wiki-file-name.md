@@ -1,3 +1,9 @@
+---
+title: "Home"
+date: 2025-04-14T20:38:00-07:00
+draft: false
+---
+
 # heres a new wiki page: 
 
 ## it can be anything we want it to say
