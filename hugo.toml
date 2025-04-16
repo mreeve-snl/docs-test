@@ -1,8 +1,10 @@
-#baseURL = "https://mreeve-snl.github.io/wiki-test/"
+baseURL = "https://mreeve-snl.github.io/wiki-test/"
 languageCode = 'en-us'
 
 title = "Wiki Test"
 publishDir = "public"
+
+canonifyURLs = true
 
 ###############################################################################
 # Docsy
