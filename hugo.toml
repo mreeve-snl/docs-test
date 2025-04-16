@@ -101,12 +101,8 @@ section = [ "HTML" ]
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)']]
-
-  [markup.highlight]
-    # See a complete list of available styles at https://xyproto.github.io/splash/docs/all.html
-    noClasses = false
-    guessSyntax = "true"
-
+    [markup.highlight]
+          style = "monokai"
 ###############################################################################
 # Docsy - DrawIO configuration
 ###############################################################################
