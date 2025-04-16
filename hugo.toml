@@ -130,7 +130,7 @@ enable = true
 # Docsy - Site Parameters
 ###############################################################################
 [params]
-  github_repo = "https://github.com/mreeve-snl/github"
+  github_repo = "https://github.com/mreeve-snl/wiki-test"
   github_project_repo = "https://github.com/cisagov/lme"
 
   #copyright = "LME"
