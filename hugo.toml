@@ -167,6 +167,8 @@ enable = true
 
   # Enable Lunr.js offline search
   offlineSearch = true
+  offlineSearchSummaryLength = 200
+  offlineSearchMaxResults = 25
 
   # Social media accounts
   [params.social]
@@ -183,6 +185,7 @@ enable = true
   [[params.versions]]
     version = "v1.0"
     githubbranch = "v1.0"
+    url = "https://github.com/mreeve-snl/wiki-test/tree/main"
 
   # User interface configuration
   [params.ui]
@@ -198,7 +201,7 @@ enable = true
     # Show expand/collapse icon for sidebar sections
     sidebar_menu_foldable = true
     # Disable about button in footer
-    footer_about_disable = true
+    footer_about_enable = false
 
       # Adds a H2 section titled "Feedback" to the bottom of each doc. The responses are sent to Google Analytics as events.
       # This feature depends on [services.googleAnalytics] and will be disabled if "services.googleAnalytics.id" is not set.

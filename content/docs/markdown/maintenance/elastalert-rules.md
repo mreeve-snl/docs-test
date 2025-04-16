@@ -8,8 +8,6 @@ The basic premise is that all data (logs and detections) will reach specific ind
 
 Elastalert enables this by providing hooks into email, slack, ms_teams, etc... (see a list of all alert types [HERE](https://elastalert2.readthedocs.io/en/latest/alerts.html#alert-types))
 
-## TOC:
-
 ## Alert Rule overview:
 See a complete rule below. We discuss the components of it below. 
 
