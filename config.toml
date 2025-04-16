@@ -1,7 +1,0 @@
-baseURL = "https://mreeve-snl.github.io/wiki-test/"
-languageCode = "en-us"
-title = "Wiki Test"
-contentDir = "docs"
-publishDir = "public"
-theme = "docsy"
-
