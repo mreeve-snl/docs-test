@@ -165,6 +165,9 @@ enable = true
   # NOTE: enable it per-page with `swaggerui: true` in front matter
   swaggerui = false
 
+  # Enable Lunr.js offline search
+  offlineSearch = true
+
   # Social media accounts
   [params.social]
 
@@ -172,15 +175,14 @@ enable = true
     twitter = "cisagov?"
 
   # These entries appear in the drop-down menu at the top of the website.
-  #[[params.versions]]
-  #  version = "master"
-  #  githubbranch = "master"
-  #  url = "https://TODO"
+  [[params.versions]]
+    version = "main"
+    githubbranch = "main"
+    url = "https://github.com/mreeve-snl/wiki-test/tree/main"
 	#TODO: add this in
-  #[[params.versions]]
-  #  version = "v1.10"
-  #  githubbranch = "v1.10-branch"
-  #  url = "???"
+  [[params.versions]]
+    version = "v1.0"
+    githubbranch = "v1.0"
 
   # User interface configuration
   [params.ui]
