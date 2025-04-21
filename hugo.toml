@@ -1,7 +1,7 @@
-baseURL = "https://mreeve-snl.github.io/wiki-test/"
+baseURL = "https://mreeve-snl.github.io/docs-test/"
 languageCode = 'en-us'
 
-title = "Wiki Test"
+title = "Docs Test"
 publishDir = "public"
 
 canonifyURLs = true
@@ -60,19 +60,24 @@ ignoreFiles = []
 [menu]
   [[menu.main]]
     name = "Docs"
-    weight = -102
+    weight = -103
     pre = "<i class='fas fa-book pr-2'></i>"
     url = "/docs/"
   [[menu.main]]
     name = "Events"
-    weight = -101
+    weight = -102
     pre = "<i class='fas fa-calendar pr-2'></i>"
     url = "/events/"
+  [[menu.main]]
+    name = "LEARNING TREE"
+    weight = -101
+    pre = "<i class='fas fa-brain pr-2'></i>"
+    url = "/learning/"
   [[menu.main]]
     name = "Blog"
     weight = -100
     pre = "<i class='fas fa-rss pr-2'></i>"
-    url = "BLOG GOES HERE"
+    url = "/blog/"
   [[menu.main]]
     name = "GitHub"
     weight = -99
@@ -122,7 +127,7 @@ enable = true
 ###############################################################################
 [languages]
   [languages.en]
-    title = "wiki-test"
+    title = "docs-test"
     languageName ="English"
     weight = 1
 
@@ -130,7 +135,7 @@ enable = true
 # Docsy - Site Parameters
 ###############################################################################
 [params]
-  github_repo = "https://github.com/mreeve-snl/wiki-test"
+  github_repo = "https://github.com/mreeve-snl/docs-test"
   github_project_repo = "https://github.com/cisagov/lme"
 
   #copyright = "LME"
@@ -151,7 +156,7 @@ enable = true
 
   # A link to latest version of the docs. Used in the "version-banner" partial to
   # point people to the main doc site.
-  url_latest_version = "https://mreeve-snl.github.io/wiki-test/"
+  url_latest_version = "https://mreeve-snl.github.io/docs-test/"
 
   # A variable used in various docs to determine URLs for config files etc.
   # To find occurrences, search the repo for 'params "githubbranch"'.
@@ -180,12 +185,12 @@ enable = true
   [[params.versions]]
     version = "main"
     githubbranch = "main"
-    url = "https://github.com/mreeve-snl/wiki-test/tree/main"
+    url = "https://github.com/mreeve-snl/docs-test/tree/main"
 	#TODO: add this in
   [[params.versions]]
     version = "v1.0"
     githubbranch = "v1.0"
-    url = "https://github.com/mreeve-snl/wiki-test/tree/main"
+    url = "https://github.com/mreeve-snl/docs-test/tree/main"
 
   # User interface configuration
   [params.ui]
